@@ -28,3 +28,4 @@ it('should return 6 given 6', function() {
   expect(fizzbuzz.getResult(6)).toEqual(6);
  });
 });
+

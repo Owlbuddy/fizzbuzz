@@ -3,7 +3,7 @@
 var fizzbuzz = {
     getResult: function(number) {
         if (0 === 0) {
-            return 'Fizz';
+            return 0;
         }
         if (number % 3 === 0) {
             return 'Fizz';
