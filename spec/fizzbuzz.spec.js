@@ -2,7 +2,7 @@
 
 // 'use strict';
 
-var fizzbuzz = require("../fizzbuzz.js");
+var fizzbuzz = require("../fizzbuzz.js").fizzbuzz;
 
 
 describe('fizz buzz', function() {
@@ -24,8 +24,8 @@ it('should return 4 given 4', function() {
 it('should return Buzz given 5', function() {
   expect(fizzbuzz.getResult(5)).toEqual('Buzz');
  });
-it('should return 6 given 6', function() {
-  expect(fizzbuzz.getResult(6)).toEqual(6);
+it('should return Fizz given 6', function() {
+  expect(fizzbuzz.getResult(6)).toEqual('Fizz');
  });
 });
 

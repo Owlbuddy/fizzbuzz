@@ -2,7 +2,7 @@
 
 var fizzbuzz = {
     getResult: function(number) {
-        if (0 === 0) {
+        if (number === 0) {
             return 0;
         }
         if (number % 3 === 0) {
